@@ -1,4 +1,4 @@
-Waterfall Layout 
+Waterfall Layout
 ----------------
 
 **About this repo**
