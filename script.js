@@ -54,6 +54,7 @@ var adjustCells = function(nodes) {
 
 var appendCells = function(num) {
     // Fetch JSON string via Ajax
+    /*
     var request = new XMLHttpRequest(),
         fragment = document.createDocumentFragment(),
         cells = [],
@@ -74,9 +75,9 @@ var appendCells = function(num) {
         }
     };
     request.send(null);
+    */
 
     // Fake, only for GH demo
-    /*
     var fragment = document.createDocumentFragment(),
         cells = [],
         data = [];
@@ -97,7 +98,6 @@ var appendCells = function(num) {
     });
     container.appendChild(fragment);
     adjustCells(cells);
-    */
 };
 
 var reflowCheck = function() {
