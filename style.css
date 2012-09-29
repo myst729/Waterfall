@@ -94,7 +94,7 @@ span {
     position: absolute;
     top: 20px;
     z-index: 9000;
-    display: none;
+    visibility: hidden;
     height: 24px;
     line-height: 24px;
     font-size:14px;
@@ -108,7 +108,7 @@ span {
 }
 
 .ready:hover span {
-    display: block;
+    visibility: visible;
 }
 
 span:hover {
