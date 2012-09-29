@@ -13,6 +13,28 @@ body {
     overflow-y: scroll;
 }
 
+#notice {
+    background: #fefec1;
+    color: #333;
+    font-size: 12px;
+    line-height: 28px;
+    height: 28px;
+    padding: 0 10px;
+    border: 1px solid #d9ccb4;
+    position: fixed;
+    left: 0px;
+    z-index: 9600;
+    -webkit-transition: top 500ms ease-in-out;
+}
+
+#notice.off {
+    top: -36px;
+}
+
+#notice.on {
+    top: 0px;
+}
+
 #loader {
     font-weight: bold;
     text-align: center;
