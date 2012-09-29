@@ -17,7 +17,6 @@
                 element.addEventListener(type, handler, false);
             };
         } else if(element.attachEvent) {
-            var e = window.event;
             addEvent = function(element, type, handler) {
                 element.attachEvent('on' + type, handler);
             };
